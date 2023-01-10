@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey_Forms</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="head" strong>GeeksforGeeks Survey Forms</h1>
+        <h2 id="subheading">Created by Manu Estrada</h2>
+    </div>
+    <form>
+        <div id="content1">
+            <label>Name</label> <br><br>
+            <input type="name" name="name" placeholder="Enter your name" class="box"> <br><br>
+            <label>Email</label> <br><br>
+            <input type="email" name="email" placeholder="Enter your email" class="box"> <br><br>
+            <label>Age (optional)</label> <br><br>
+            <input type="age" name="age" placeholder="Enter your age" class="box"> <br><br>
+            <label>Which option best describes you?</label> <br><br>
+         <div id="option1">
+            <select>
+                <option name="Select Your Role">Select Your Role</option>
+                <option value="Student">Student</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Full Time Leaner">Full Time Leaner</option>
+                <option value="Prefer Not to say">Prefer Not to say</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>  
+        <br>
+        <label id="head1">Would you recommend GeeksforGeeks Survey Forms to a friend?</label><br><br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspYes<br><br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspNo<br><br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspMaybe<br><br>
+        <label>What is your favorite feature of GeeksforGeeks Bootcamp?</label><br>
+        <div id="option2">
+            <select>
+                <option name="Select an option">Select an option</option>
+                <option value="Challenges">Challenges</option>
+                <option value="Projects">Projects</option>
+                <option value="Community">Community</option>
+                <option value="Open Source">Open Source</option>
+            </select>
+        </div>
+        <br><br>
+        <label id="head2">What languages and Franeworks do you know? (Check all that apply)</label><br><br>
+        <div id="content2">
+            <input type="checkbox" name="checkbox" class="larger"><label>  C</label> <br> <br> 
+            <input type="checkbox" name="checkbox" class="larger"><label>  C++</label> <br> <br>
+            <input type="checkbox" name="checkbox" class="larger"><label>  C#</label> <br> <br>
+            <input type="checkbox" name="checkbox" class="larger"><label>  Java</label> <br> <br>
+            <input type="checkbox" name="checkbox" class="larger"><label>  Python</label> <br> <br>
+            <input type="checkbox" name="checkbox" class="larger"><label>  PHP</label> <br> <br>
+            <input type="checkbox" name="checkbox" class="larger"><label>  Javascript</label> <br> <br>
+            <input type="checkbox" name="checkbox" class="larger"><label>  React</label> <br> <br>
+            <input type="checkbox" name="checkbox" class="larger"><label>  Angular</label> <br> <br>
+            <input type="checkbox" name="checkbox" class="larger"><label>  Django</label> <br> <br>
+            <input type="checkbox" name="checkbox" class="larger"><label>  Spring</label> <br> <br>
+        </div>
+        <div>
+            <label id="head2">Any comments or suggestions</label> <br><br>
+            <textarea class="placeholder" placeholder="Enter your comment here...."></textarea> <br>
+            <button>Submit</button>
+        </div>
+    </form>
+ </body>
+</html>
+   
